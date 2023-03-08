@@ -1,2 +1,6 @@
-package exeption;public class MyExeption {
+package exeption;
+
+public class MyExeption extends Exception{
+
+
 }

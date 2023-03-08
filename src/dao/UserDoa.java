@@ -2,16 +2,19 @@ package dao;
 
 import model.User;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class DataBase {
-    private List<User> userList;
+public class UserDoa {
 
-    public DataBase(List<User> userList) {
+
+    private List<User> userList =  new ArrayList<>();
+
+    public UserDoa(List<User> userList) {
         this.userList = userList;
     }
 
-    public DataBase() {
+    public UserDoa() {
     }
 
     public List<User> getUserList() {
